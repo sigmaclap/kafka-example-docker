@@ -1,6 +1,5 @@
 package kafka.kafkaConfig;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kafka.core.entity.Post;
 import lombok.SneakyThrows;
@@ -28,6 +27,7 @@ public class Producer {
         this.kafkaTemplate = kafkaTemplate;
         this.objectMapper = objectMapper;
     }
+
     @SneakyThrows
     public void sendMessage(Post post, String request) {
         String orderAsMessage = objectMapper.writeValueAsString(post);
