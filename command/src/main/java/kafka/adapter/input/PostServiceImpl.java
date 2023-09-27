@@ -1,9 +1,7 @@
 package kafka.adapter.input;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import kafka.adapter.input.repository.PostRepository;
 import kafka.core.entity.Post;
-import kafka.kafkaConfig.KafkaProducer;
 import kafka.kafkaConfig.Producer;
 import kafka.port.input.PostService;
 import lombok.RequiredArgsConstructor;
