@@ -1,9 +1,0 @@
-consumer\core\entity\QueryPost.class
-consumer\PostService.class
-consumer\core\dto\PostDto.class
-consumer\config\Consumer.class
-consumer\core\entity\QueryPost$QueryPostBuilder.class
-consumer\core\PostRepository.class
-consumer\core\entity\Post.class
-consumer\core\mapper\ConfigMapper.class
-consumer\core\entity\Post$PostBuilder.class
