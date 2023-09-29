@@ -1,10 +1,14 @@
 package consumer.core.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.Value;
+import lombok.NoArgsConstructor;
 
 @Data
-@Value
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class PostDto {
     Long id;
     String name;

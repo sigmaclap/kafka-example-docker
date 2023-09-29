@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    topic:
+      name: topic-demo
+#    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka1:9092
+    producer:
+      properties:
+        spring:
+          json:
+            add:
+              type:
+                headers: false
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#server:
+#  port: 8081
